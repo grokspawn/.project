@@ -1,0 +1,72 @@
+# .project metadata for Operator Framework
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add adopters list (ADOPTERS.md)
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "operator-framework"
+name: "Operator Framework"
+description: "SDK for building Kubernetes applications. Provides high level APIs, useful abstractions, and project scaffolding"
+type: "project"
+project_lead: "joelanford" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#olm-dev"
+    primary: true
+  - name: "#operator-sdk-dev"
+
+maturity_log:
+  - phase: "incubating"
+    date: "2020-07-09T00:00:00Z"
+    issue: "https://github.com/cncf/sandbox/issues/279" # TODO: AUTO-DETECTED — please verify
+
+repositories: # TODO: AUTO-DETECTED primary — please verify
+  - url: "https://github.com/operator-framework/operator-sdk"
+    primary: true
+    # tags: [core, sig-apps] # Optional
+
+website: "https://operatorframework.io/"
+
+artwork: "https://landscape.cncf.io/logos/operator-framework.svg"
+
+# TODO: Add ADOPTERS.md if your project tracks adopters
+# adopters:
+#   path: "https://github.com/operator-framework/operator-sdk/blob/master/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "operator-framework/operator-sdk"
+
+
+security:
+  policy:
+    path: "https://github.com/operator-framework/operator-sdk/blob/master/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/operator-framework/operator-sdk/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/operator-framework/operator-sdk/blob/master/CONTRIBUTING.MD"
+  code_of_conduct:
+    path: "https://github.com/operator-framework/operator-sdk/blob/master/code-of-conduct.md"
+
+legal:
+  license:
+    path: "https://github.com/operator-framework/operator-sdk/blob/master/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/operator-framework/operator-sdk/blob/master/README.md"
+
+landscape:
+  category: "App Definition and Development"
+  subcategory: "Application Definition & Image Build"
+
+# CLOMonitor Score: 70/100
+# Documentation: 82 | License: 86 | Best Practices: 46 | Security: 56
