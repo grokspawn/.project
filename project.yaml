@@ -12,8 +12,14 @@ type: "project"
 project_lead: "joelanford"
 slack_channels:
   - name: "#olm-dev"
+    workspace: "kubernetes"
     primary: true
   - name: "#operator-sdk-dev"
+    workspace: "kubernetes"
+  - name: "#olm-dev"
+    workspace: "cncf"
+  - name: "#operator-framework-community"
+    workspace: "kubernetes"
 
 maturity_log:
   - phase: "incubating"
